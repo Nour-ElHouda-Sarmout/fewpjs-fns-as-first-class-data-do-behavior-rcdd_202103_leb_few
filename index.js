@@ -17,12 +17,12 @@ function greet(time){
 
   if(numTime < 12){
     message = "Good Morning";
-  }else if(numTime > 12 || numTime < 17){
+  }else if(numTime >= 12 && numTime <= 17){
     message = "Good Afternoon";
   } else if (numTime > 17){
     message = "Good Evening";
   }
-  console.log(message);
+  
   return message;
 }
 /* Write your implementation of displayMessage() */
