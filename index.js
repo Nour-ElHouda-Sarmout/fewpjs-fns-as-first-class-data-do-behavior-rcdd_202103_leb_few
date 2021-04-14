@@ -22,7 +22,7 @@ function greet(time){
   } else if (numTime > 17){
     message = "Good Evening";
   }
-  
+
   return message;
 }
 /* Write your implementation of displayMessage() */
